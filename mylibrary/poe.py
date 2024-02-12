@@ -8,7 +8,7 @@ def main(Lx,Ly,nx,ny,u):
     y = np.linspace(0, Ly, ny)
     u1 = u.copy()
 
-    # Solve Poisson's equation using finite difference method
+    # Solve Poisson's equation
     for it in range(1000):  # Number of iterations
         for i in range(1, nx-1):
             for j in range(1, ny-1):
