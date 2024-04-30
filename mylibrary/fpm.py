@@ -1,8 +1,7 @@
 # Fixed point method
 
-def main(g,x):
+def main(g,x,eps):
     x1=g(x)
-    eps=10**-4
     c=1
     while abs(x1-x)>eps:
         x=float(x1)
